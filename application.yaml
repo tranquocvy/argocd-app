@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/ntquan/argocd-app.git
+    repoURL: https://github.com/tranquocvy/argocd-app.git
     targetRevision: HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: tqvy2
 
   syncPolicy:
     syncOptions:
